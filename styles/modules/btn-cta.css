@@ -1,0 +1,22 @@
+.btn-cta {
+    background-color: var(--black);
+    width: fit-content;
+    color: var(--white);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    border: none;
+    box-shadow: 13px 13px 0px 5px var(--red-highlight);
+    transition: all 0.2s;
+    &:hover {
+        box-shadow: 5px 5px 0px 5px var(--red-highlight);
+        background-color: var(--btn-hover);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-cta {
+        box-shadow: none;
+    }
+}

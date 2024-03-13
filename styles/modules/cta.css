@@ -1,0 +1,16 @@
+.cta-container {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--red-highlight);
+    color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+    .cta-container {
+        height: 7rem;
+        justify-content: center;
+    }
+}

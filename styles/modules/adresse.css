@@ -1,0 +1,27 @@
+.nos-adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container-adresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-adresses {
+    font-weight: var(--body-highlight-font-weight);
+}
+
+.card-adresses img {
+    border: solid var(--red-highlight) 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container-adresses {
+        flex-direction: column;
+        align-items: center;
+    }
+}

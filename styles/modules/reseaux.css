@@ -1,0 +1,25 @@
+.rs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.rs-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.img-grid {
+    border: solid var(--red-highlight) 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .rs-container-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}

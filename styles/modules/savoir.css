@@ -1,0 +1,13 @@
+.savoir-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .savoir-container {
+        width: 90%;
+    }
+}

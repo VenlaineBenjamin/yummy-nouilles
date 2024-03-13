@@ -1,0 +1,29 @@
+.adresse-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.container-map {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-info-adresses {
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .adresse-container {
+        margin: 1rem;
+    }
+
+    .container-map {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 20rem;
+    }
+}
